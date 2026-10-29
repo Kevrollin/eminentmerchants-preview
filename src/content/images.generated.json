@@ -1,0 +1,115 @@
+{
+  "heroCx5": {
+    "path": "/assets/eminent/vehicles/mazda-cx5-red",
+    "width": 1280,
+    "height": 720,
+    "widths": [
+      640,
+      960,
+      1280
+    ]
+  },
+  "subaruImpreza": {
+    "path": "/assets/eminent/vehicles/subaru-impreza-silver",
+    "width": 1080,
+    "height": 720,
+    "widths": [
+      480,
+      720,
+      1080
+    ]
+  },
+  "subaruInterior": {
+    "path": "/assets/eminent/vehicles/subaru-impreza-interior",
+    "width": 1280,
+    "height": 720,
+    "widths": [
+      640,
+      960,
+      1280
+    ]
+  },
+  "hiluxZ": {
+    "path": "/assets/eminent/vehicles/toyota-hilux-z-white",
+    "width": 720,
+    "height": 540,
+    "widths": [
+      480,
+      720
+    ]
+  },
+  "fielderEngine": {
+    "path": "/assets/eminent/vehicles/toyota-fielder-hybrid-engine",
+    "width": 960,
+    "height": 720,
+    "widths": [
+      480,
+      720,
+      960
+    ]
+  },
+  "premio": {
+    "path": "/assets/eminent/vehicles/toyota-premio-maroon",
+    "width": 960,
+    "height": 720,
+    "widths": [
+      480,
+      720,
+      960
+    ]
+  },
+  "vezelYard": {
+    "path": "/assets/eminent/vehicles/honda-vezel-blue-yard",
+    "width": 960,
+    "height": 720,
+    "widths": [
+      480,
+      720,
+      960
+    ]
+  },
+  "demioTitanium": {
+    "path": "/assets/eminent/vehicles/mazda-demio-titanium",
+    "width": 960,
+    "height": 720,
+    "widths": [
+      480,
+      720,
+      960
+    ]
+  },
+  "yardLineup": {
+    "path": "/assets/eminent/yard/yard-lineup-office",
+    "width": 960,
+    "height": 720,
+    "widths": [
+      480,
+      720,
+      960
+    ]
+  },
+  "officeInterior": {
+    "path": "/assets/eminent/yard/office-interior",
+    "width": 640,
+    "height": 480,
+    "widths": [
+      480,
+      640
+    ]
+  },
+  "yardFrontage": {
+    "path": "/assets/eminent/yard/yard-frontage-signage",
+    "width": 1280,
+    "height": 512,
+    "widths": [
+      640,
+      960,
+      1280
+    ]
+  },
+  "logo": {
+    "path": "/assets/eminent/brand/logo",
+    "width": 480,
+    "height": 248
+  }
+}

@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/*
+  Palette adapted from the Eminent Merchants logo (red #E72426, blue #2575BB)
+  with a deep navy and warm off-white for a calmer, premium base.
+  Red is reserved for primary actions and small accents.
+*/
+@theme {
+  --font-sans: "Manrope Variable", "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --color-paper: #f7f6f2;
+  --color-paper-deep: #efede6;
+  --color-line: #e2dfd6;
+  --color-ink: #0f1b2d;
+  --color-ink-soft: #3d4757;
+  --color-muted: #5f6774;
+
+  --color-navy: #0f1b2d;
+  --color-navy-raised: #18273d;
+  --color-navy-line: #2a3a52;
+  --color-on-navy-soft: #b9c2cf;
+
+  --color-brand-red: #d42027;
+  --color-brand-red-dark: #b3191f;
+  --color-brand-blue: #2575bb;
+  --color-brand-blue-deep: #1f66a6;
+
+  --radius-card: 1.25rem;
+  --shadow-soft: 0 1px 2px rgb(15 27 45 / 0.04), 0 8px 24px -12px rgb(15 27 45 / 0.18);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-paper font-sans text-ink antialiased;
+    font-feature-settings: "ss01", "cv11";
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: rgb(37 117 187 / 0.22);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand-blue);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@utility container-page {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+
+  @variant sm {
+    padding-inline: 1.5rem;
+  }
+
+  @variant lg {
+    padding-inline: 2.5rem;
+  }
+}
